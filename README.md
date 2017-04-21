@@ -20,7 +20,6 @@ It needs five tables in the book rating database:
 ```sql
 
 #Table books
-drop table if exists books;
 create table books
 (
 ISBN varchar(13),
@@ -32,7 +31,6 @@ primary key (ISBN)
 );
 
 #Table users
-drop table if exists users;
 create table users
 (
 User_ID int(11),
@@ -42,7 +40,6 @@ primary key (User_ID)
 );
 
 #Table Book_Ratings
-drop table if exists book_ratings;
 create table book_ratings
 (
 User_ID int(11),
@@ -52,7 +49,6 @@ primary key (User_ID, ISBN),
 );
 
 #Table Authors
-drop table if exists authors;
 create table authors
 (
 Author_ID int(11),
@@ -64,7 +60,6 @@ primary key (Author_ID)
 );
 
 #Table Publishers
-drop table if exists publishers;
 create table publishers
 (
 Publisher_ID int(11),
