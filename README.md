@@ -17,6 +17,7 @@ Here is the E-R model:
 ### Tables
 
 It needs five tables in the book rating database:
+
 ```sql
 
 #Table books
@@ -45,7 +46,7 @@ create table book_ratings
 User_ID int(11),
 ISBN varchar(13),
 Rating int(11),
-primary key (User_ID, ISBN),
+primary key (User_ID, ISBN)
 );
 
 #Table Authors
