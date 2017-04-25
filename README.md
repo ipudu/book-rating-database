@@ -70,6 +70,19 @@ Address varchar(255),
 primary key (Publisher_ID)
 );
 ```
+
+### Initialization
+
+run initialization.sql to creat all of tables and load datasets.
+
+### query
+
+some interesting queries are stored in query.sql, please check it for details.
+
+### Authors
+
+Pu Du, Tianyi Zhang, Pengfei Pan, Min Cui
+
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
