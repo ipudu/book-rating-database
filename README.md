@@ -75,7 +75,7 @@ primary key (Publisher_ID)
 
 run initialization.sql to creat all of tables and load datasets.
 
-### query
+### Queries
 
 some interesting queries are stored in query.sql, please check it for details.
 
