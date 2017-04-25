@@ -1,6 +1,7 @@
-# Book Rating Database
+# Book Rating Database 
+[![DOI](https://zenodo.org/badge/88826330.svg)](https://zenodo.org/badge/latestdoi/88826330)
 
-A database project for CSC 4402 class Spring 2017 at Louisiana State University.
+A database project for CSC 4402 class of Spring 2017 at Louisiana State University.
 
 ### Book crossing dataset
 book crossing dataset is collected by Cai-Nicolas Ziegler in a 4-week crawl from [bookcrossing.com](https://www.bookcrossing.com/). It contains 1,149,780 ratings of 271,379 books by 278,858 users.
